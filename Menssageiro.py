@@ -60,4 +60,4 @@ def main (page):
     page.add(titulo)
     page.add(iniciar)
 
-ft.app(target = main, port=8000)
+ft.app(target = main, view=ft.WEB_BROWSER, port=8000)
